@@ -1,3 +1,18 @@
 theme: jekyll-theme-minimal
-title: KW Homepage
-description: KW Home, to the moon!
+title: Bicheng Wang - Technologist & Researcher
+description: AI/ML Researcher, Distributed Systems Engineer, Open Source Contributor
+author: Bicheng Wang
+email: bichengwang@example.com
+url: https://bichengwang.github.io
+
+# Social media links
+social:
+  github: bichengwang
+  linkedin: bichengwang
+  twitter: bichengwang
+  medium: bichengwang
+  youtube: bichengwang
+  instagram: bichengwang
+
+# SEO
+keywords: AI, Machine Learning, Distributed Systems, Python, Research, Technology
