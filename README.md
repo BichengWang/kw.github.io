@@ -1,4 +1,4 @@
-# 👋 Hi, I'm Bicheng Wang
+# 👋 Hi, I'm Kenneth Wang
 
 ## 🚀 About Me
 I'm a passionate technologist and researcher focused on AI, machine learning, and distributed systems. I love exploring the intersection of technology and innovation.
@@ -6,30 +6,24 @@ I'm a passionate technologist and researcher focused on AI, machine learning, an
 ## 🔗 Connect With Me
 
 ### 📱 Social Media
-- **LinkedIn**: [Bicheng Wang](https://www.linkedin.com/in/kennethbcwang/)
-- **Twitter/X**: [@bichengwang](https://x.com/BichengW81192)
-- **GitHub**: [@bichengwang](https://github.com/bichengwang)
-- **Medium**: [Bicheng Wang](https://medium.com/@bichengwang17)
+- **LinkedIn**: [Kenneth Wang](https://www.linkedin.com/in/kennethbcwang/)
+- **Twitter/X**: [@kennethwang](https://x.com/BichengW81192)
+- **GitHub**: [@kenneth](https://github.com/bichengwang)
+- **Medium**: [Kenneth Wang](https://medium.com/@bichengwang17)
 
 ### 🎯 Professional Networks
-- **ResearchGate**: [Bicheng Wang](https://researchgate.net/profile/bichengwang)
-- **Google Scholar**: [Bicheng Wang](https://scholar.google.com/citations?user=bichengwang)
-- **ORCID**: [0000-0000-0000-0000](https://orcid.org/0000-0000-0000-0000)
-
-### 💼 Professional Platforms
-- **Stack Overflow**: [bichengwang](https://stackoverflow.com/users/bichengwang)
-- **Dev.to**: [@bichengwang](https://dev.to/bichengwang)
-- **Hashnode**: [@bichengwang](https://hashnode.com/@bichengwang)
+- **ResearchGate**: [Kenneth Wang](https://researchgate.net/profile/bichengwang)
+- **Google Scholar**: [Kenneth Wang](https://scholar.google.com/citations?user=bichengwang)
 
 ### 🎨 Creative & Content
-- **YouTube**: [Bicheng Wang](https://youtube.com/@bichengwang)
-- **Twitch**: [bichengwang](https://twitch.tv/bichengwang)
-- **Instagram**: [@bichengwang](https://instagram.com/bichengwang)
-- **TikTok**: [@bichengwang](https://tiktok.com/@bichengwang)
+- **YouTube**: [Kenneth Wang](https://www.youtube.com/@kenneth_channel)
+- **Twitch**: [kenneth](https://twitch.tv/bichengwang)
+- **Instagram**: [@kenneth](https://instagram.com/bichengwang)
+- **TikTok**: [@kenneth](https://tiktok.com/@bichengwang)
 
 ### 📧 Contact
-- **Email**: bichengwang@example.com
-- **Website**: [bichengwang.com](https://bichengwang.com)
+- **Email**: bichengwang@gmail.com
+- **Website**: [kenneth.com](https://bichengwang.github.io/)
 
 ## 🛠️ Technologies & Skills
 - **Languages**: Python, JavaScript, Go, Rust, C++
