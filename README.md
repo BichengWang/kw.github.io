@@ -1,58 +1,59 @@
-# 👋 Hi, I'm Kenneth Wang
+# Kenneth (Bicheng) Wang
 
-## 🚀 About Me
-Principal-level Machine Learning Engineer working on AI agents, agent memory and reasoning, and large-scale pricing & marketplace ML systems.
+**Principal-level Machine Learning Engineer**: AI agents, agent memory and reasoning, and large-scale pricing & marketplace ML systems. Based in the Bay Area; industry experience at Salesforce, xAI, and Uber.
 
-## 🔗 Connect With Me
+[LinkedIn](https://www.linkedin.com/in/kennethbcwang/) · [GitHub](https://github.com/BichengWang) · [Medium](https://medium.com/@bichengwang17) · [X](https://x.com/BichengW81192) · [YouTube](https://www.youtube.com/@kenneth_channel) · [Email](mailto:bichengwang17@gmail.com)
 
-### 📱 Social Media
-- **LinkedIn**: [Kenneth Wang](https://www.linkedin.com/in/kennethbcwang/)
-- **Twitter/X**: [@BichengW81192](https://x.com/BichengW81192)
-- **GitHub**: [@bichengwang](https://github.com/bichengwang)
-- **Medium**: [Kenneth Wang](https://medium.com/@bichengwang17)
+## Current Focus
+- **Enterprise AI agents**: memory, reasoning, and personalization
+- **Pricing & marketplace ML**: pricing, promotions, ranking, causal modeling, and experimentation at scale
+- **Decision reliability**: calibration, evaluation, and release gates for ML and LLM decisions
+- **LLM training**: fine-tuning (SFT / RL), agent evaluation, and data flywheels
 
-### 🎯 Professional Networks
-- **ResearchGate**: [Kenneth Wang](https://researchgate.net/profile/bichengwang)
-- **Google Scholar**: [Kenneth Wang](https://scholar.google.com/citations?user=bichengwang)
+## Writing
+Technical articles on [Medium](https://medium.com/@bichengwang17):
 
-### 🎨 Creative & Content
-- **YouTube**: [Kenneth Wang](https://www.youtube.com/@kenneth_channel)
-- **Twitch**: [kenneth](https://twitch.tv/bichengwang)
-- **Instagram**: [@kenneth](https://instagram.com/bichengwang)
-- **TikTok**: [@kenneth](https://tiktok.com/@bichengwang)
+| Date | Article |
+| --- | --- |
+| 2026-09 | [The Model Was Never the Bottleneck: Reliability Engineering for Real-Time ML Decisions](https://medium.com/@bichengwang17/the-model-was-never-the-bottleneck-reliability-engineering-for-real-time-ml-decisions-8d05416cf66c) |
+| 2026-09 | [Compliance Is an Architecture Problem: Building Priced Decisions You Can Actually Audit](https://medium.com/@bichengwang17/compliance-is-an-architecture-problem-building-priced-decisions-you-can-actually-audit-d0760456b884) |
+| 2026-09 | [Nobody Owns the Evaluator: Building a Calibration Standard for Fleets of Models](https://medium.com/@bichengwang17/nobody-owns-the-evaluator-building-a-calibration-standard-for-fleets-of-models-8cd93ac93688) |
+| 2026-09 | [Your Model Is Accurate and Your Decision Is Wrong: Uplift Modeling in Production](https://medium.com/@bichengwang17/your-model-is-accurate-and-your-decision-is-wrong-uplift-modeling-in-production-64267468695d) |
+| 2026-09 | [When Your Best Features Don't Exist: Graph Learning for Cross-Entity Sparsity in Marketplace Decisions](https://medium.com/@bichengwang17/when-your-best-features-dont-exist-graph-learning-for-cross-entity-sparsity-in-marketplace-09077c364fbc) |
+| 2025-02 | [Large-Scale AI System: How Dynamic Recommendations and Pricing Real-time Optimization](https://medium.com/@bichengwang17/2023-how-does-large-scale-pricing-ml-eco-system-work-ccb2235e2aff) |
 
-### 📧 Contact
-- **Email**: bichengwang17@gmail.com
-- **Website**: [bichengwang.github.io](https://bichengwang.github.io/)
+## Open Source
 
-## 🛠️ Technologies & Skills
+| Project | What it does |
+| --- | --- |
+| [ai-decision-system](https://github.com/BichengWang/ai-decision-system) ![stars](https://img.shields.io/github/stars/BichengWang/ai-decision-system?style=flat-square&label=%E2%98%85) | Replayable, offline-verifiable records for AI-assisted go/no-go decisions: typed model answers, policy-gated approvals, A/B ship gates, and release gates. |
+| [multi-agents](https://github.com/BichengWang/multi-agents) ![stars](https://img.shields.io/github/stars/BichengWang/multi-agents?style=flat-square&label=%E2%98%85) | OpenAI Agents SDK workflows with confidence-based routing, refine-loop, best-of-n, and human-checkpoint patterns, plus traced run artifacts. |
+| [financial-agent](https://github.com/BichengWang/financial-agent) ![stars](https://img.shields.io/github/stars/BichengWang/financial-agent?style=flat-square&label=%E2%98%85) | RL and portfolio-simulation research (Stable-Baselines3 A2C / DDPG / PPO / SAC / TD3) plus tooling that audits equity-research reports. |
+| [RL-pricing](https://github.com/BichengWang/RL-pricing) ![stars](https://img.shields.io/github/stars/BichengWang/RL-pricing?style=flat-square&label=%E2%98%85) | Multi-stock RL trading strategies, a validation-Sharpe rolling ensemble, and an LSTM forecast-driven strategy, backtested against rule-based portfolios. |
+| [TradingAgents](https://github.com/BichengWang/TradingAgents) ![stars](https://img.shields.io/github/stars/BichengWang/TradingAgents?style=flat-square&label=%E2%98%85) | Fork of [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents), a multi-agent LLM trading framework, extended with resumable batch report runs and a published [report site](https://bichengwang.github.io/TradingAgents/). |
+
+## Research
+- **Stanford CS230 — Deep Learning on Stock Trading** ([paper](https://drive.google.com/file/d/1-ogSAAA5L0sdy1iLt8HQKwV2kcN1UuCc/view?usp=sharing) · [video](https://www.youtube.com/watch?v=bE8MFq4sB2k) · [code](https://github.com/BichengWang/RL-pricing)): portfolio strategies combining auto-regressive forecasting with RL (PPO, A2C, DDPG, TD3, SAC). Beat the S&P 500 in rolling backtests with 1.33 Sharpe, 15% alpha, beta = 0.9.
+- **UC Irvine — Recommendation System & Data Storage**: recurrent PageRank on Hadoop MapReduce using adjacency-matrix and embedding representations for real-time user and content recommendation.
+
+## Patents
+Granted Chinese invention patents on mobile user authentication from touch-behavior signals:
+
+- [CN105068743B](https://patents.google.com/patent/CN105068743B/en): mobile-terminal user identity authentication based on multi-finger touch behavior (granted 2018)
+- [CN104966016B](https://patents.google.com/patent/CN104966016B/en): cooperative child-user detection and operating-permission restriction on mobile terminals (granted 2018)
+- [CN104850773B](https://patents.google.com/patent/CN104850773B/en): user identity authentication for smart mobile terminals (granted 2018)
+
+## Skills
 - **Languages**: Python, Go, Java, C++
-- **LLM / Agents**: vLLM, LangChain, LlamaIndex, AutoGen, DeepEval, agent orchestration, agent memory, agent evaluation
-- **ML Frameworks**: PyTorch, Horovod, Ray
+- **LLM / Agents**: vLLM, LangChain, LlamaIndex, AutoGen, OpenAI Agents SDK, DeepEval; agent orchestration, memory, and evaluation
+- **ML Frameworks**: PyTorch, Horovod, Ray, Stable-Baselines3
 - **Data / Streaming**: Spark, Flink, Kafka
 - **Infra**: Kubernetes, Yarn, Redis, Cassandra
-- **Domains**: Pricing, promotions, marketplace optimization, ranking, causal modeling, experimentation, simulation
+- **Domains**: pricing, promotions, marketplace optimization, ranking, causal modeling, experimentation, simulation
 
-## 📊 GitHub Stats
-![Bicheng Wang's GitHub stats](https://github-readme-stats.vercel.app/api?username=bichengwang&show_icons=true&theme=radical)
-
-## 🌟 Patents & Research
-
-### Patents (ML)
-- **CN105068743B**
-- **CN104966016B**
-- **CN104850773B**
-
-### Research
-- **Stanford — Reinforcement Learning on Stock Trading**: Portfolio strategies combining auto-regressive forecasting with RL (PPO, A2C, DDPG, TD3, SAC). Beat the S&P 500 in rolling backtests with 1.33 Sharpe, 15% alpha, beta = 0.9.
-- **UC Irvine — Recommendation System & Data Storage**: Recurrent PageRank on Hadoop MapReduce using adjacency-matrix and embedding representations for realtime user and content recommendation.
-
-## 📈 Current Focus
-- 🤖 Agent memory, reasoning, and personalization for enterprise AI agents
-- 📊 Large-scale pricing, promotion, and marketplace ML systems
-- 🔬 LLM fine-tuning (SFT / RL), agent evaluation, and data flywheels
-- 📚 Continuous learning and open-source contributions
+## GitHub Stats
+![Bicheng Wang's GitHub stats](https://github-readme-stats.vercel.app/api?username=bichengwang&show_icons=true&hide_border=true)
 
 ---
 
-*Feel free to reach out if you'd like to collaborate on interesting projects!* 🤝
+Open to collaborating on agents, decision reliability, and pricing ML: [bichengwang17@gmail.com](mailto:bichengwang17@gmail.com).
