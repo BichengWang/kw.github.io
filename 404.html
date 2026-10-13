@@ -8,7 +8,7 @@ sitemap: false
 <script>
   (function () {
     var p = location.pathname || "";
-    if (p.indexOf("/trading-reports/") === 0) {
+    if (p.indexOf("/trading-reports/") !== -1) {
       location.replace("https://bichengwang.github.io/TradingAgents/");
       return;
     }
@@ -16,4 +16,4 @@ sitemap: false
 </script>
 <style>body{font-family:system-ui,sans-serif;max-width:640px;margin:60px auto;padding:0 20px;}</style>
 <h1>404 — Not Found</h1>
-<p>The page you requested doesn't exist. Head back to the <a href="/">home page</a>.</p>
+<p>The page you requested doesn't exist. Head back to the <a href="{{ '/' | relative_url }}">home page</a>.</p>
