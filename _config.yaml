@@ -1,9 +1,9 @@
 theme: jekyll-theme-minimal
 title: Kenneth (Bicheng) Wang
-description: Principal-level Machine Learning Engineer working on AI agents, decision reliability, and large-scale pricing & marketplace ML.
+description: Principal-level Machine Learning Engineer building Altair AI, working on AI agents, decision reliability, and large-scale pricing & marketplace ML.
 author: Bicheng Wang
 email: bichengwang17@gmail.com
 url: https://bichengwang.github.io
 
 # SEO
-keywords: AI Agents, Machine Learning, LLM, Pricing, Marketplace, Decision Reliability, Reinforcement Learning
+keywords: AI Agents, Multi-Agent Systems, MCP, Machine Learning, LLM, Pricing, Marketplace, Decision Reliability, Reinforcement Learning
