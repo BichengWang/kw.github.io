@@ -9,14 +9,17 @@
 - **Multi-agent coding teams**: measuring whether a team of agents beats a single agent on results and cost
 - **Pricing & marketplace ML**: pricing, promotions, ranking, causal modeling, and experimentation at scale
 - **Decision reliability**: replayable, verifiable records, calibration, and release gates for ML and LLM decisions
+- **Reproducible trading AI**: re-testing published RL and LLM trading claims, my own included, under a pre-registered protocol
 - **LLM training**: fine-tuning (SFT / RL), agent evaluation, and data flywheels
 
 ## Altair AI
 [Altair AI](https://altairworld.com) is a financial and AI consulting firm in the San Francisco Bay Area, listed in the Claude and OpenAI partner networks. It runs its own research and agent systems:
 
 - **[AI equity research](https://altairworld.com/TradingAgents/)**: Claude, GPT, and Gemini models each run the same multi-agent TradingAgents pipeline on about 70 US stocks and ETFs, refreshed weekly.
-- **Agent access over MCP**: a free, read-only [remote MCP server](https://altairworld.com/mcp), listed in [awesome-remote-mcp-servers](https://github.com/punkpeye/awesome-remote-mcp-servers), plus the [altair-research](https://github.com/altair-world/altair-skills) agent skill (v1.0.0) for Claude Code, Codex, Cursor, and Gemini CLI.
-- **[Market indicators](https://altairworld.com/indicators)**: factor and breadth indicators for the S&P 500, Nasdaq-100, and PHLX Semiconductor indices.
+- **Agent access over MCP**: a [remote MCP server](https://altairworld.com/mcp), listed in [awesome-remote-mcp-servers](https://github.com/punkpeye/awesome-remote-mcp-servers), with free reports, market breadth, and indicators, plus structured research signals at $0.01 per call via x402. The [altair-research and altair-market](https://github.com/altair-world/altair-skills) agent skills (v1.1) work in Claude Code, Codex, Cursor, and Gemini CLI.
+- **[Market indicators](https://altairworld.com/indicators)**: factor and breadth indicators for the S&P 500, Nasdaq-100, and PHLX Semiconductor indices, with S&P 500 breadth by sector and five years of history.
+
+Altair is [hiring](https://altairworld.com/careers) a Member of Technical Staff to build AI agents, research tools, and the workspace behind them.
 
 ## Writing
 Technical articles on [Medium](https://medium.com/@bichengwang17):
@@ -41,14 +44,27 @@ Technical articles on [Medium](https://medium.com/@bichengwang17):
 | --- | --- |
 | [ai-decision-system](https://github.com/BichengWang/ai-decision-system) ![stars](https://img.shields.io/github/stars/BichengWang/ai-decision-system?style=flat-square&label=%E2%98%85) | Replayable, offline-verifiable records for AI-assisted go/no-go decisions: typed model answers, policy-gated approvals, A/B ship gates, and release gates. |
 | [multi-agents](https://github.com/BichengWang/multi-agents) ![stars](https://img.shields.io/github/stars/BichengWang/multi-agents?style=flat-square&label=%E2%98%85) | Teams of coding agents (Claude Code, Codex, or any model via the OpenAI Agents SDK) in isolated git worktrees, with a benchmark that measures whether the team beats a single agent on results and cost. On PyPI as [`multi-agent`](https://pypi.org/project/multi-agent/). |
-| [financial-agent](https://github.com/BichengWang/financial-agent) ![stars](https://img.shields.io/github/stars/BichengWang/financial-agent?style=flat-square&label=%E2%98%85) | RL and portfolio-simulation research (Stable-Baselines3 A2C / DDPG / PPO / SAC / TD3) plus tooling that audits equity-research reports. |
-| [RL-pricing](https://github.com/BichengWang/RL-pricing) ![stars](https://img.shields.io/github/stars/BichengWang/RL-pricing?style=flat-square&label=%E2%98%85) | Multi-stock RL trading strategies, a validation-Sharpe rolling ensemble, and an LSTM forecast-driven strategy, backtested against rule-based portfolios. |
+| [financial-agent](https://github.com/BichengWang/financial-agent) ![stars](https://img.shields.io/github/stars/BichengWang/financial-agent?style=flat-square&label=%E2%98%85) | Risk-managed systematic ETF trading in Python: cost-aware backtests, statistical certification, paper trading, and gated Alpaca / IBKR execution, plus equity and RL research. On PyPI as [`fa-quant`](https://pypi.org/project/fa-quant/). |
+| [RL-pricing](https://github.com/BichengWang/RL-pricing) ![stars](https://img.shields.io/github/stars/BichengWang/RL-pricing?style=flat-square&label=%E2%98%85) | A reproducibility lab for trading AI: published RL and LLM trading claims re-tested under a pre-registered protocol, with a causal backtesting benchmark, a live decision ledger, and a public [leaderboard](https://bichengwang.github.io/RL-pricing/). |
 | [TradingAgents](https://github.com/BichengWang/TradingAgents) ![stars](https://img.shields.io/github/stars/BichengWang/TradingAgents?style=flat-square&label=%E2%98%85) | Fork of [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents), a multi-agent LLM trading framework, extended with resumable batch report runs and multi-model [research reports](https://altairworld.com/TradingAgents/). |
-| [altair-skills](https://github.com/altair-world/altair-skills) ![stars](https://img.shields.io/github/stars/altair-world/altair-skills?style=flat-square&label=%E2%98%85) | Agent skill that pulls each AI model's latest call on about 70 US stocks and ETFs from Altair's free MCP server and shows where the models disagree. |
+| [altair-skills](https://github.com/altair-world/altair-skills) ![stars](https://img.shields.io/github/stars/altair-world/altair-skills?style=flat-square&label=%E2%98%85) | Agent skills for Altair's MCP server: `altair-research` pulls each AI model's latest call on about 70 US stocks and ETFs and shows where the models disagree; `altair-market` reads market breadth and factor indicators. |
 
-Upstream: fixes and features submitted to agent frameworks and tools including Anthropic's Claude Agent SDK, Google ADK, OpenAI and Gemini cookbooks, Honcho, AG2, and Orca; merged in [VoiceStudio](https://github.com/debpalash/VoiceStudio/pull/2702).
+### Contributions
+Merged pull requests in widely used open-source projects:
+
+| Project | Merged work |
+| --- | --- |
+| [VoiceStudio](https://github.com/debpalash/VoiceStudio) ![stars](https://img.shields.io/github/stars/debpalash/VoiceStudio?style=flat-square&label=%E2%98%85) | Stop silent default-voice retries after MLX model errors ([#2739](https://github.com/debpalash/VoiceStudio/pull/2739)); load the MOSS model and codec from independently pinned snapshots ([#2702](https://github.com/debpalash/VoiceStudio/pull/2702)) |
+| [Gemini API Cookbook](https://github.com/google-gemini/cookbook) ![stars](https://img.shields.io/github/stars/google-gemini/cookbook?style=flat-square&label=%E2%98%85) | Link-checker and notebook-linter fixes ([#1425](https://github.com/google-gemini/cookbook/pull/1425), [#1418](https://github.com/google-gemini/cookbook/pull/1418), [#1414](https://github.com/google-gemini/cookbook/pull/1414), [#1405](https://github.com/google-gemini/cookbook/pull/1405)); Next steps for four REST quickstarts ([#1415](https://github.com/google-gemini/cookbook/pull/1415)) |
+| [Microsoft Agent Framework](https://github.com/microsoft/agent-framework) ![stars](https://img.shields.io/github/stars/microsoft/agent-framework?style=flat-square&label=%E2%98%85) | `service_url` for the OpenAI and Ollama chat clients ([#9225](https://github.com/microsoft/agent-framework/pull/9225), [#9222](https://github.com/microsoft/agent-framework/pull/9222)); session persistence in the hosting quickstart ([#9030](https://github.com/microsoft/agent-framework/pull/9030)) |
+| [Honcho](https://github.com/plastic-labs/honcho) ![stars](https://img.shields.io/github/stars/plastic-labs/honcho?style=flat-square&label=%E2%98%85) | Workspace-scoped `clone_session` lookups ([#1284](https://github.com/plastic-labs/honcho/pull/1284)); warnings for unused provider credentials ([#1344](https://github.com/plastic-labs/honcho/pull/1344)); dependency security bumps ([#1266](https://github.com/plastic-labs/honcho/pull/1266)) |
+| [AG2](https://github.com/ag2ai/ag2) ![stars](https://img.shields.io/github/stars/ag2ai/ag2?style=flat-square&label=%E2%98%85) | A2A push-notification URL validation ([#3348](https://github.com/ag2ai/ag2/pull/3348)); toolkit merging that keeps tools and middleware ([#3387](https://github.com/ag2ai/ag2/pull/3387)); eval and filesystem-tool fixes ([#3423](https://github.com/ag2ai/ag2/pull/3423), [#3376](https://github.com/ag2ai/ag2/pull/3376), [#3303](https://github.com/ag2ai/ag2/pull/3303)) |
+| [TensorFlow Docs](https://github.com/tensorflow/docs) ![stars](https://img.shields.io/github/stars/tensorflow/docs?style=flat-square&label=%E2%98%85) | Documentation fix ([#1834](https://github.com/tensorflow/docs/pull/1834)) |
+
+Open pull requests to Anthropic's Claude Agent SDK, Claude Cookbooks, and Skills, Google ADK, the OpenAI Cookbook, TradingAgents, and Orca.
 
 ## Research
+- **Deep Reinforcement Learning for Equity Trading: Benchmarking Actor-Critic Methods with Forward Retraining** (Wang & Zhang, 2026, [arXiv:2609.31870](https://arxiv.org/abs/2609.31870)): DDPG, TD3, SAC, PPO, and A2C on 20 large-cap stocks. Re-tested over five seeds in the [RL-pricing lab](https://github.com/BichengWang/RL-pricing/blob/main/reports/r0-wang-zhang-2026/report.md): the Sharpe claims partly hold; DDPG's 55.5% annual return does not (24.6%).
 - **Stanford CS230 — Deep Learning on Stock Trading** ([paper](https://drive.google.com/file/d/1-ogSAAA5L0sdy1iLt8HQKwV2kcN1UuCc/view?usp=sharing) · [video](https://www.youtube.com/watch?v=bE8MFq4sB2k) · [code](https://github.com/BichengWang/RL-pricing)): portfolio strategies combining auto-regressive forecasting with RL (PPO, A2C, DDPG, TD3, SAC). Beat the S&P 500 in rolling backtests with 1.33 Sharpe, 15% alpha, beta = 0.9.
 - **UC Irvine — Recommendation System & Data Storage**: recurrent PageRank on Hadoop MapReduce using adjacency-matrix and embedding representations for real-time user and content recommendation.
 
